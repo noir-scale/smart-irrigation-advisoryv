@@ -1,0 +1,21 @@
+{
+  "name": "smart-irrigation-advisory-system",
+  "version": "1.0.0",
+  "description": "Smart Irrigation Advisory System integrating FAO-56 Penman-Monteith and Machine Learning",
+  "scripts": {
+    "start": "./start.sh",
+    "dev": "./start.sh",
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm run dev",
+    "compile-pdf": "google-chrome-stable --headless --disable-gpu --no-sandbox --print-to-pdf=research_paper/Smart_Irrigation_Advisory_Paper_6Pages.pdf research_paper/paper_ieee_format.html"
+  },
+  "keywords": [
+    "smart-irrigation",
+    "agriculture",
+    "fao-56",
+    "iot",
+    "machine-learning"
+  ],
+  "author": "Ankit Sinha, Kawanjot Singh Gujral, Varun Thakur",
+  "license": "MIT"
+}
